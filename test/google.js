@@ -63,7 +63,7 @@ describe('#### Google ####', function () {
                 assert.equal(error, undefined);
                 var receipt = JSON.parse(data.toString());
                 iap.validate(receipt, function (error, response) {
-                console.log('>>>>>>>>>>>>>>>>', response);
+                    console.log('>>>>>>>>>>>>>>>>', response);
                     assert.equal(error, undefined);
                     assert.equal(iap.isValidated(response), true);
                     var data = iap.getPurchaseData(response);
@@ -104,7 +104,7 @@ describe('#### Google ####', function () {
                 assert.equal(error, undefined);
                 var receipt = JSON.parse(data.toString());
                 iap.validate(receipt, function (error, response) {
-                console.log('>>>>>>>>>>>>>>>>', response);
+                    console.log('>>>>>>>>>>>>>>>>', response);
                     assert.equal(error, undefined);
                     assert.equal(iap.isValidated(response), true);
                     var data = iap.getPurchaseData(response);

@@ -11,16 +11,16 @@
   "url": "https://github.com/voltrue2/in-app-purchase.git"
  },
  "dependencies": {
+  "@xmldom/xmldom": "^0.7.0",
   "fb": "^2.0.0",
   "jwt-simple": "^0.5.6",
-  "request": "2.88.0",
+  "request": "2.88.2",
   "urlsafe-base64": "^1.0.0",
-  "xml-crypto": "^2.1.2",
-  "xmldom": "^0.6.0"
+  "xml-crypto": "^2.1.2"
  },
  "devDependencies": {
-  "eslint": "5.6.1",
-  "mocha": "^8.4.0"
+  "eslint": "8.22.0",
+  "mocha": "^10.0.0"
  },
  "scripts": {
   "test": "./precommit.sh"
